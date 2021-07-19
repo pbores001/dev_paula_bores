@@ -1543,6 +1543,8 @@ transition: 0.5s ease;
         display: flex;
         justify-content: space-between;
     }
+
+/*WORK*/
     
     .services p{
         padding: 10px 380px;
@@ -1551,6 +1553,12 @@ transition: 0.5s ease;
     .services:last-of-type p{
         padding-bottom: 100px;
     }
- 
+      /*RESUME*/
+     .resume-container{
+        z-index: 0;
+        margin: -60px auto 0;
+        box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5); 
+         
+     }
 
 }
