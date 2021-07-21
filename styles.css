@@ -809,8 +809,6 @@ text-align: justify;
 /*Button Right SIDE*/
 
 
-
-
 /*Button Right SIDE --- End*/
 
 .visualSkills{
@@ -831,8 +829,6 @@ text-align: justify;
             typewriter 2s steps(10) 1.6s forwards,
             blink 900ms steps(10) infinite;
     }
-
-
 
 
 @keyframes typewriter{
@@ -1074,14 +1070,13 @@ transition: 0.5s ease;
         font-weight: var(--fw-bold);
     }
     
-   .contact-container h1{
+ .contact-container h1{
         color: black;
         background: var(--clr-accent);
         padding: 0.2em 0.3em;
         width: max-content;
-        margin: 40px 45px;
-        font-size: var(--fs-h2);
-       
+        /* margin: 40px 45px; */
+        font-size: var(--fs-h3);
     }
     
     
